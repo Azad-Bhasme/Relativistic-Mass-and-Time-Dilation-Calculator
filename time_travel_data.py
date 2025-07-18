@@ -86,9 +86,8 @@ Built using **Python** and **Streamlit**
 
 # ---------------- FOOTER ------------------
 st.markdown(
-    "<hr style='border:1px solid #ccc;'>"
-    "<div style='text-align:center; font-family:sans-serif; padding-top:10px;'>"
-    "Made with ❤️ by <strong>Azad Bhasme</strong>"
-    "</div>",
-    unsafe_allow_html=True
+        "<div style='text-align: center; margin-top: 3rem;'>"
+        "Made with <span style='color:red; animation: blink 1.5s infinite;'>❤️</span> by <strong>Azad Bhasme</strong> | Relativistic Calculator © 2025"
+        "</div><style>@keyframes blink {0%{opacity:1;}50%{opacity:0.3;}100%{opacity:1;}}</style>",
+        unsafe_allow_html=True,
 )
